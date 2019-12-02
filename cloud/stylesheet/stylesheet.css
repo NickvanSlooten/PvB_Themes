@@ -253,9 +253,9 @@ div.required .control-label:before {
 	padding: 3px 20px;
 	clear: both;
 	line-height: 20px;
-	color: #fff;
+	color: #000;
 	font-size: 12px;
-	background-color: #000;
+	background-color: #fff; 
 }
 #menu .dropdown-inner li a:hover {
 	color: #FFFFFF;
@@ -271,8 +271,8 @@ div.required .control-label:before {
 	-moz-border-radius: 0 0 4px 4px;
 	border-radius: 0 0 3px 3px;
 	font-size: 12px;
-	background-color: #000;
-	color: #fff;
+	background-color: #fff;
+	color: #000;
 }
 #menu .see-all:hover, #menu .see-all:focus {
 	text-decoration: none;
