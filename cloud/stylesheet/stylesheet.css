@@ -36,10 +36,11 @@ h6 {
 	font-size: 10.2px;
 }
 a {
-	color: black;
+	color: #23a1d1;
 }
 a:hover {
 	text-decoration: none;
+	color:black
 }
 legend {
 	font-size: 18px;
@@ -106,12 +107,12 @@ div.required .control-label:before {
 	background-repeat: repeat-x;
 }
 #top .btn-link, #top-links li, #top-links a {
-	color: #000;
+	color: #23a1d1;
 /*	text-shadow: 0 1px 0 #FFF; */
 	text-decoration: none;
 }
 #top .btn-link:hover, #top-links a:hover {
-	color: #f4f3f3;
+	color: #000000;
 }
 #top-links .dropdown-menu a {
 	text-shadow: none;
@@ -221,11 +222,11 @@ div.required .control-label:before {
 	background-color: #fff;
 	/*background-image: linear-gradient(to bottom, #23a1d1, #1f90bb); */
 	background-repeat: repeat-x;
-	border-color: #000;
+	border-color: #23a1d1;
 	min-height: 40px;
 }
 #menu .nav > li > a {
-	color: #000;
+	color: #23a1d1;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 	padding: 10px 15px 10px 15px;
 	min-height: 15px;
@@ -233,6 +234,11 @@ div.required .control-label:before {
 	text-transform: uppercase;
 	background-color: transparent;
 }
+
+#menu .nav > li > a:hover {
+	color: #000;
+}
+
 #menu .nav > li > a:hover, #menu .nav > li.open > a {
 	background-color: rgba(0, 0, 0, 0.1);
 }
@@ -359,7 +365,7 @@ footer hr {
 	border-bottom: 1px solid #666;
 }
 footer a {
-	color: #ccc;
+	color: #fff;
 }
 footer a:hover {
 	color: #fff;
@@ -369,7 +375,7 @@ footer h5 {
 	text-transform: uppercase;
 	font-size: 13px;
 	font-weight: bold;
-	color: #fff;
+	color: #23a1d1;
 }
 /* alert */
 .alert {
@@ -380,13 +386,14 @@ footer h5 {
 	margin: 0 0 20px 0;
 	padding: 8px 0;
 	border: 1px solid #000;
-	background-color: #000;
+	background-color: #fff;
+	border-color: #23a1d1
 }
 .breadcrumb i {
 	font-size: 15px;
 }
 .breadcrumb > li {
-	color: #fff;
+	color: #000;
 	padding: 0 20px;
 	position: relative;
 	white-space: nowrap;
@@ -530,11 +537,16 @@ footer h5 {
 .btn-inverse {
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	background-color: #363636;
-	background-image: linear-gradient(to bottom, #444444, #222222);
+	/* background-color: #363636; */
+	/* background-image: linear-gradient(to bottom, #444444, #222222); */
 	background-repeat: repeat-x;
-	border-color: #222222 #222222 #000000;
+	/* border-color: #222222 #222222 #000000; */
+ background-repeat: repeat-x;
+    border-color: #23a1d1;
+    background-color: #23a1d1;
 }
+
+
 .btn-inverse:hover, .btn-inverse:active, .btn-inverse.active, .btn-inverse.disabled, .btn-inverse[disabled] {
 	background-color: #222222;
 	background-image: linear-gradient(to bottom, #333333, #111111);
@@ -543,7 +555,7 @@ footer h5 {
 .list-group a {
 	font-family: "coda",Georgia,serif;
 	text-transform: uppercase;
-	background-color: #000;
+	background-color: #23a1d1;
 	border: 1px solid #fff;
 	color: #fff;
 	padding: 8px 12px;
@@ -825,4 +837,19 @@ h2.price {
 .btn-info:hover, .btn-info:active, .btn-info.active, .btn-info.disabled, .btn-info[disabled] {
     background-image: none;
     background-color: #df5c39;
+}
+
+
+/* Font awesome hover color {TR} */
+
+.fa-heart:hover {
+
+color:red
+
+}
+
+.fa-exchange:hover {
+
+color:blue
+
 }
