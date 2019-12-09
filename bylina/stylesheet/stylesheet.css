@@ -97,7 +97,7 @@ div.required .control-label:before {
 .dropdown-menu li > a:hover {
 	text-decoration: none;
 	color: #ffffff;
-	background-color: #462e22;
+	background-color: #da4f4f;
 	/*background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);*/
 	background-repeat: repeat-x;
 }
@@ -129,7 +129,7 @@ div.required .control-label:before {
 	background-repeat: repeat-x;
 }
 #top .btn-link, #top-links li, #top-links a {
-	color: #ccc;
+	color: white;
 	/*text-shadow: 0 1px 0 #888;*/
 	text-decoration: none;
 }
