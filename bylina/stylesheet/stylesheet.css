@@ -619,6 +619,9 @@ hr {
   display: inline-block;
 }
 
+.col-sm-6.text-right {
+    color: black;
+}
 .triangle-topleft {
     display: block;
     position: absolute;
