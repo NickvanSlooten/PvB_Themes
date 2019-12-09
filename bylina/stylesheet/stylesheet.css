@@ -45,12 +45,12 @@ h6 {
 	font-size: 10.2px;
 }
 a {
-	color: #462e22;
+	color: #da4f4f;
     font-size: 18px;
 }
 a:hover {
 	text-decoration: none;
-    color: #7b5744;
+    color: black;
 }
 
 *{font-family: 'CyrillicOldEditedbyme-Bold', sans-serif;
@@ -103,8 +103,8 @@ div.required .control-label:before {
 }
 /* top */
 #top {
-    background-image: url('../image/line.png');
-	background-color: #303030;
+    /* background-image: url('../image/line.png'); */
+	background-color: #da4f4f;
 	border-bottom: 3px double #e2e2e2;
 	padding: 4px 0px 3px 0;
 	margin: 0 0 20px 0;
@@ -251,8 +251,8 @@ border-radius: 0px;
 	/*background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);*/
 	/*background-repeat: repeat-x;*/
 	/*border-color: #462e22;*/
-    border-top: double 6px #462e22;
-    border-bottom: double 6px #462e22;
+    border-top: double 6px #da4f4f;
+    border-bottom: double 6px #da4f4f;
     border-right: none;
     border-left: none;
 	min-height: 40px;
@@ -375,17 +375,17 @@ border-radius: 0px;
 footer {
 	margin-top: 30px;
 	padding-top: 30px;
-    background-image: url('../image/line.png');
-	background-color: #303030;
+    /* background-image: url('../image/line.png'); */
+	background-color: #da4f4f;
 	border-top: 3px double #ddd;
 	color: #e2e2e2;
 }
 footer hr {
 	border-top: none;
-	border-bottom: 3px double #666;
+	border-bottom: 3px double white;
 }
 footer a {
-	color: #ccc;
+	color: white;
 }
 footer a:hover {
 	color: #fff;
@@ -610,7 +610,7 @@ hr {
   text-align: center;
 }
 .box-title h3 {
-  color: #462e22;
+  color: #da4f4f;
   text-shadow: none;
   font-size: 26px;
   padding: 0px 12px 0px 12px;
@@ -778,7 +778,7 @@ h2.price {
 }
 .product-thumb .button-group button:hover {
 	color: #fff;
-	background-color: #462e22;
+	background-color: #da4f4f;
 	text-decoration: none;
 	cursor: pointer;
 }
