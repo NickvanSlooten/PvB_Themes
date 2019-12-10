@@ -138,11 +138,11 @@ div.required .control-label:before {
 }
 #top-links .dropdown-menu a {
 	text-shadow: none;
-    color: #462e22;
+    color: black;
 }
 #top-links .dropdown-menu a:hover {
 	color: #fff;
-    background: #462e22;
+    background: #da4f4f;
 }
 #top .btn-link strong {
 	font-size: 20px;
