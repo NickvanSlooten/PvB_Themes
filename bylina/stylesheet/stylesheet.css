@@ -371,6 +371,11 @@ border-radius: 0px;
 #content {
 	min-height: 600px;
 }
+#content img {
+	
+	height: 15vh;
+}
+
 /* footer */
 footer {
 	margin-top: 30px;
@@ -758,6 +763,11 @@ h2.price {
 .product-list .product-thumb .button-group {
 	border-left: 1px solid #ddd;
 }
+
+
+
+
+
 @media (max-width: 768px) {
 	.product-list .product-thumb .button-group {
 		border-left: none;
